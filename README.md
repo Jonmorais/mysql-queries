@@ -1,1 +1,1 @@
-# mysql-queries
+# Training query selectors
