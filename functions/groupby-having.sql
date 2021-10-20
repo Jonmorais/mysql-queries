@@ -28,3 +28,8 @@ SELECT district, COUNT(*)
 FROM `sakila`.`address`
 GROUP BY district
 HAVING COUNT(*) > 5;
+
+SELECT first_name, COUNT(*)
+FROM sakila.actor
+GROUP BY first_name
+HAVING COUNT(*) > 2;
